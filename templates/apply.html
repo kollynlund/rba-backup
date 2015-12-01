@@ -1,0 +1,253 @@
+<div id="apply" class="page-title">
+
+
+	<div class="row apply-container">
+		<div class="col-sm-12">
+			<center><p><u>Special Note</u><br />There is a 20 EUR fee when applying for admission to Royal Business Adademy. An invoice will be sent to you through PayPal after we receive the form below. Your application will not be considered completed until we have received the completed Application Form, the five Additional Required Files listed at the end of this form, and your 20 EUR payment.</p></center>
+		</div>
+	</div>
+
+
+	<h1>Application Form</h1>
+	<p class="page-text apply-container">Please note that your information will be kept confidential and will be used only by Royal Business Academy personnel.</p>
+	<div class="row apply-container">
+		<div class="col-sm-12">
+			<h1>Personal Information</h1>
+			<div class="col-sm-6">
+
+					<div class="form-group">
+						<div class="inputGroupContainer">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+								<input tabindex="1" name="first_name" placeholder="First Name" class="form-control" type="text" ng-model="apc.application.first_name">
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="inputGroupContainer">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+								<input tabindex="3" name="preferred_name" placeholder="Preferred Name" class="form-control" type="text" ng-model="apc.application.preferred_name">
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="inputGroupContainer">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="fa fa-language"></i></span>
+								<input tabindex="5" name="native_language" placeholder="Native Language" class="form-control" type="text" ng-model="apc.application.native_language">
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="inputGroupContainer">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="fa fa-language"></i></span>
+								<input tabindex="7" name="other_languages" placeholder="Other Language(s)" class="form-control" type="text" ng-model="apc.application.other_languages">
+							</div>
+						</div>
+					</div>
+
+
+			</div>
+
+			<div class="col-sm-6">
+
+				<div class="form-group">
+					<div class="inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+							<input tabindex="2" name="family_surname" placeholder="Family or Surname*" class="form-control" type="text" ng-model="apc.application.family_surname">
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+							<input tabindex="4" name="date_of_birth" placeholder="Date of Birth*" class="form-control" type="text" ng-model="apc.application.date_of_birth">
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-users"></i></span>
+							<input tabindex="6" name="how_did_you_hear_about_us" placeholder="How did you hear about us?" class="form-control" type="text" ng-model="apc.application.how_did_you_hear_about_us">
+						</div>
+					</div>
+				</div>
+
+						<div class="form-group">
+							<div class="inputGroupContainer">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-mars"></i></span>
+									<select tabindex="8" name="gender" placeholder="Passport Country*" class="form-control" ng-model="apc.application.gender" ng-init="apc.application.gender = 'Gender*'">
+										<option>Gender*</option>
+										<option>Male</option>
+										<option>Female</option>
+									<select/>
+								</div>
+							</div>
+						</div>
+
+<!-- 				<div class="form-group">
+					<div class="inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+							<input name="meaningful_service" placeholder="Describe meaningful service you have provided" class="form-control form-textbox" type="textbox">
+						</div>
+					</div>
+				</div> -->
+
+			</div>
+		</div>
+	</div>
+
+	<div class="row apply-container">
+		<h1>Contact Information</h1>
+		<div class="col-sm-12">
+			<div class="col-sm-6">
+
+				<div class="form-group">
+					<div class="inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-globe"></i></span>
+							<input tabindex="9" name="street_address" placeholder="Street Address*" class="form-control" type="text" ng-model="apc.application.street_address">
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-globe"></i></i></span>
+							<input tabindex="11" name="state_province" placeholder="State or Province*" class="form-control" type="text" ng-model="apc.application.state_province">
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-globe"></i></span>
+							<input tabindex="13" name="postal_code" placeholder="Postal Code*" class="form-control" type="text" ng-model="apc.application.postal_code">
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-phone"></i></span>
+							<input tabindex="15" name="telephone_number" placeholder="Telephone Number*" class="form-control" type="text" ng-model="apc.application.telephone_number">
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="col-sm-6">
+
+				<div class="form-group">
+					<div class="inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-globe"></i></span>
+							<input tabindex="10" name="city" placeholder="City*" class="form-control" type="text" ng-model="apc.application.city">
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-globe"></i></span>
+							<input tabindex="12" name="country" placeholder="Country*" class="form-control" type="text" ng-model="apc.application.country">
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="inputGroupContainer">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+							<input tabindex="14" name="email" placeholder="Email*" class="form-control" type="text" ng-model="apc.application.email">
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+
+			<div class="row apply-container">
+				<h1>Other Information</h1>
+				<div class="col-sm-12">
+
+					<div class="col-sm-6">
+
+						<div class="form-group">
+							<div class="inputGroupContainer">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+									<select tabindex="15" name="application_year" placeholder="Passport Country*" class="form-control" ng-model="apc.application.application_year" ng-init="apc.application.application_year = 'Year for which you are applying*'">
+										<option>Year for which you are applying*</option>
+										<option>2016</option>
+										<option>2017</option>
+										<option>2018</option>
+									<select/>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+
+
+					<div class="col-sm-6">
+
+						<div class="form-group">
+							<div class="inputGroupContainer">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-graduation-cap"></i></span>
+									<select tabindex="16" name="level_of_education" placeholder="Passport Country*" class="form-control" type="text" ng-model="apc.application.level_of_education" ng-init="apc.application.level_of_education = 'Highest Level of Education*'">
+										<option>Highest Level of Education*</option>
+										<option>Graduated Secondary School</option>
+										<option>1 to 4 Years of College</option>
+										<option>Graduated 4 Years of College</option>
+										<option>Completed Graduate Degree (Masters or Doctorate)</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+    	</div>
+
+	<div class="row apply-container">
+		<h1>Important</h1>
+		<div class="col-sm-12">
+			<p class="main-text">Please email the following files to apply@royalbusinessacademy.org &nbsp;<span class="more-info" ng-click="apc.openInfoModal('all')">(view all instructions)</span>::</p>
+			<ul>
+				<li>Photo of yourself <span class="more-info" ng-click="apc.openInfoModal('Photo')">(More info)</span></li>
+				<li>CV <span class="more-info" ng-click="apc.openInfoModal('CV')">(More info)</span></li>
+				<li>Bio <span class="more-info" ng-click="apc.openInfoModal('Bio')">(More info)</span></li>
+				<li>Personal Reference <span class="more-info" ng-click="apc.openInfoModal('Personal Reference')">(More info)</span></li>
+				<li>Professional Reference <span class="more-info" ng-click="apc.openInfoModal('Professional Reference')">(More info)</span></li>
+			</ul>
+		</div>
+	</div>
+	<div class="row apply-container">
+		<div class="col-sm-6 col-sm-offset-3">
+			<div id="send-email" class="form-group">
+				<button class="btn" id="btn-positive-submit" ng-click="apc.submitForm()" ng-disabled="apc.stupidIdiot || apc.completed">{{apc.stupidIdiot ? 'Finish form before submitting' : (apc.completed ? 'Thanks!' : 'Submit')}} </button>
+			</div>
+		</div>
+	</div>
+</div>
